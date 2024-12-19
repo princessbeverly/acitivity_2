@@ -11,7 +11,7 @@ scene.background = new THREE.Color(0xe4e0ba); // Replace with your desired color
 const loader = new GLTFLoader();
 let model; // Store the loaded model
 loader.load(
-    './assets/donut.glb', // Ensure this path is correct relative to your HTML or JS file
+    './donut.glb', // Ensure this path is correct relative to your HTML or JS file
     function (glb) {
         console.log(glb);
         model = glb.scene;
